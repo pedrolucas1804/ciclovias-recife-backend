@@ -1,0 +1,16 @@
+{
+  "name": "ciclovias-recife-backend",
+  "version": "1.0.0",
+  "description": "Backend que persiste a localizacao do usuario relacionada aos dados de ciclovias do Recife (Dados Recife)",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "engines": { "node": ">=22.5.0" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
